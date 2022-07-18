@@ -8,8 +8,8 @@ public class String_Anagram {
 	{
 		
 		
-		String str1=s1.replace("\\s","" );
-		String str2=s2.replace("\\s", "");
+		String str1=s1.replace("\\s","" ); //removing spaces
+		String str2=s2.replace("\\s", ""); //removing spaces
 		if(str1.length()!=str2.length()) 
 		{
 			return false;
