@@ -22,7 +22,7 @@ public class LinearSearchArray {
 		}
 		if(flag==false) 
 		{
-			System.out.println("ELement not found ");
+			System.out.println("Element not found ");
 		}
 	}
 

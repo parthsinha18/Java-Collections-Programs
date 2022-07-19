@@ -36,7 +36,11 @@ public class String_Anagram {
 		
 		System.out.println(isAnagram("Silent" , "Listen"));
 		
-
+	
+		
+		
 	}
+	
+
 
 }
