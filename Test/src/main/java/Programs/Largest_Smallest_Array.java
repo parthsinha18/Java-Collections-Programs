@@ -23,12 +23,12 @@ public class Largest_Smallest_Array {
 		{
 			if(numbers[i]>largest) 
 			{
-				largest=numbers[i];
+				largest=numbers[i];//6
 				
 			} 
 			else if(numbers[i]<smallest) 
 			{
-				smallest=numbers[i];
+				smallest=numbers[i];//2
 			}
 				
 		}	
