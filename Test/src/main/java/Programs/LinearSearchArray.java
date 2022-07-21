@@ -10,7 +10,7 @@ public class LinearSearchArray {
 		for(int i = 0 ; i<ar.length; i++) 
 		{
 			System.out.println(ar[i]);
-			if(search_ar==ar[i]) 
+			if(ar[i]==search_ar) 
 			{
 				System.out.print("Element found at index no" + i);
 				flag=true;
@@ -24,6 +24,9 @@ public class LinearSearchArray {
 		{
 			System.out.println("Element not found ");
 		}
+		
+		
+		
 	}
 
 }

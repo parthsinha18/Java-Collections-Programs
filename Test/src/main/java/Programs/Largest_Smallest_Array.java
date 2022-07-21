@@ -13,7 +13,7 @@ public class Largest_Smallest_Array {
 		 we will start iterating from 1 and if any value inside the loop is greater than the 0th index it will store the value in largest variable 
 		 else it will compare the smallest value and if the number is smaller it will store inside smaller variable, it will repeat until all the elements are compared 
 		 		 */
-		int numbers[]= {1,2,3,4,5,6};
+		int numbers[]= {5,2,3,4,5,6};
 		int largest=numbers[0];
 		int smallest = numbers[0];
 		

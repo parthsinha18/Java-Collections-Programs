@@ -31,19 +31,7 @@ public class CountEachCharactersInString {
 	public static void main(String[] args) {
 	characters("Testingg");
 	characters("spaces between words ");
-	String name = "hello";
-	Map<Character ,Integer> charmap = new HashMap<Character , Integer>();
-	char cs[] =name.toCharArray();
-	for(char c:cs) 
-	{
-		if(charmap.containsKey(c)) 
-		{
-			charmap.put(c, charmap.get(c)+1);
-		}
-		else 
-		{
-			charmap.put(c, 1);
-		}
+	
 	}
 	}
 
@@ -54,4 +42,4 @@ public class CountEachCharactersInString {
 	
 	
 	
-}
+

@@ -35,6 +35,9 @@ public class Missing_Array_Element {
 		//now we minus both the variable
 		System.out.println("Missing element is = " + (sum1-sum));
 		
+		
+		
+		
 	}
 
 }
