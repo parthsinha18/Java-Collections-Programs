@@ -18,6 +18,14 @@ public class Rev_String {
 		
 		System.out.println(rev);
 		
+		if(rev.equals(s1)) 
+		{
+			System.out.println("palindrome");
+		}
+		else 
+		{
+			System.out.println("Not a Palindrome");
+		}
 		//2nd approach
 		StringBuffer sb = new StringBuffer(s1);
 		sb.reverse();

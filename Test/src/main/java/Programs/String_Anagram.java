@@ -8,8 +8,8 @@ public class String_Anagram {
 	{
 		
 		
-		String str1=s1.replace("\\s","" ); //removing spaces
-		String str2=s2.replace("\\s", ""); //removing spaces
+		String str1=s1.replaceAll("\\s","" ); //removing spaces
+		String str2=s2.replaceAll("\\s", ""); //removing spaces
 		if(str1.length()!=str2.length()) 
 		{
 			return false;
@@ -35,6 +35,8 @@ public class String_Anagram {
 		
 		
 		System.out.println(isAnagram("Silent" , "Listen"));
+		
+		System.out.println(isAnagram("KEEP","peek"));
 		
 	
 		

@@ -10,7 +10,7 @@ public class CountNoOfWordsInString {
 		
 		
 		
-		String s = "total no of words";
+		String s = "total  no of words";
 		int count = 1;
 		for(int i = 0 ; i<s.length()-1; i++) 
 		{

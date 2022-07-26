@@ -38,7 +38,7 @@ public class BubbleSortArray {
 		{
 			for(int j=0; j<n2-1;j++) 
 			{
-				if(ch[i]>ch[j+1]) 
+				if(ch[j]>ch[j+1]) 
 				{
 					char temp=ch[j];
 					ch[j]=ch[j+1];
