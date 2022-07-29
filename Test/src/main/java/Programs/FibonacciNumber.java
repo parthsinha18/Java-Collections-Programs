@@ -13,11 +13,11 @@ public class FibonacciNumber {
        {
     	   for(int j =i+1; j<n-1; j++) 
     	   {
-    		   if(ar[j]>ar[j+1]) 
+    		   if(ar[i]>ar[j]) 
     		   {
-    			   int temp=ar[j];
-					ar[j]=ar[j+1];
-					ar[j+1]=temp;
+    			   int temp=ar[i];
+					ar[i]=ar[j];
+					ar[j]=temp;
     			   
     		   }
     	  

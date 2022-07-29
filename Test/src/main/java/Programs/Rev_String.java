@@ -1,7 +1,17 @@
 package Programs;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Rev_String {
 
+	public static boolean vowel(char c) 
+	{
+		 return c == 'a' || c=='e' || c=='o';
+			
+	
+		
+	}
 	public static void main(String[] args) {
 		
 		String s1= "hello";
@@ -31,6 +41,8 @@ public class Rev_String {
 		sb.reverse();
 		System.out.println("String buffer reverse = " + sb);
 		
+	
+	
+		}
 	}
-
-}
+	
