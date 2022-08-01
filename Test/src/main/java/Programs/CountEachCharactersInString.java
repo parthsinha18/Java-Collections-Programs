@@ -30,7 +30,7 @@ public class CountEachCharactersInString {
 	
 	public static void main(String[] args) {
 	characters("Testingg");
-	characters("spaces between words ");
+	characters(" spaces between words ");
 	
 	}
 	}
