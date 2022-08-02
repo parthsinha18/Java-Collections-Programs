@@ -1,6 +1,6 @@
 package Programs;
 
-import javax.xml.stream.events.Characters;
+
 
 public class String_Character_percentage {
 
