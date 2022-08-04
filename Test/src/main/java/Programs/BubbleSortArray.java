@@ -47,6 +47,8 @@ public class BubbleSortArray {
 			}
 		}
 		System.out.println("Array after sorting" + Arrays.toString(ch));
+		
+	
 	}
 
 }

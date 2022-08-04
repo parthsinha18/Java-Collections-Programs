@@ -27,7 +27,11 @@ public class Alphabet_Pattern_2 {
 			System.out.println("");
 		}
 		
+	
 
+		
+		
+		
 		
 	}
 

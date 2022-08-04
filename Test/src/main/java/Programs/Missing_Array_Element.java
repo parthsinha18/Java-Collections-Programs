@@ -38,6 +38,19 @@ public class Missing_Array_Element {
 		
 		
 		
+		//2nd approach
+	
+		int arr1[] = {1,5,8,13};
+		
+		for(int i=0; i<arr1.length-1; i++) 
+		{
+			for(int j = arr1[i]+1; j<arr1[i+1]; j++) 
+			{
+				System.out.println(j);
+			}
+		}
+		
+		
 	}
 
 }

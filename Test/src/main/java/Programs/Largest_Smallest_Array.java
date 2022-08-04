@@ -39,5 +39,7 @@ public class Largest_Smallest_Array {
 		System.out.println("Smallest no " + smallest);
 		System.out.println("Largest no" + largest);
 		
+		
+		
 	}
 }

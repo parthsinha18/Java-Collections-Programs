@@ -28,9 +28,31 @@ public class CountEachCharactersInString {
 
 	}
 	
+	public static void count(String s) 
+	{
+		s.toLowerCase();
+		char ch[]=s.toCharArray();
+		HashMap<Character, Integer> charmap = new HashMap<Character , Integer>();
+		for(char c: ch) 
+		{
+			if(charmap.containsKey(c)) 
+			{
+				charmap.put(c, charmap.get(c)+1);
+			}
+			else 
+			{
+				charmap.put(c, 1);
+			}
+		}
+		System.out.println(charmap);
+		
+	}
+	
 	public static void main(String[] args) {
 	characters("Testingg");
 	characters(" spaces between words ");
+	String s = "Testing";
+	count(s.toLowerCase());
 	
 	}
 	}

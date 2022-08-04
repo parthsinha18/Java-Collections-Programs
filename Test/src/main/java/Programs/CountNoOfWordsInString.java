@@ -21,7 +21,9 @@ public class CountNoOfWordsInString {
 			
 		} 
 
-		System.out.print("Total no of words in a string = " +count);
+		System.out.println("Total no of words in a string = " +count);
+		
+		
 	}
 
 }

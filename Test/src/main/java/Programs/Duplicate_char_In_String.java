@@ -63,7 +63,11 @@ public class Duplicate_char_In_String {
 				System.out.println("No duplicate String");
 			}
 			
+			
+			
 		}
+		
+		
 	}
 	public static void main(String[] args) {
 		

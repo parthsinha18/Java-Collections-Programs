@@ -31,6 +31,8 @@ public class CountOfCapitalizedString {
 			
 		}
 		System.out.println(count);
+		
+	
 	}
 
 }

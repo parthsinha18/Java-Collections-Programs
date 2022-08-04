@@ -7,7 +7,7 @@ public class SecondLargestArrayElement {
 	public static void main(String[] args) {
 		//1st approach 
 		//sort the elements by descending order & print the 2nd element
-		 int ar[]= {1,5,8,4,2,8};
+		 int ar[]= {1,5,8,6,2,8};
 		 
 		 for(int i =0; i<ar.length; i++) 
 		 {
@@ -33,7 +33,7 @@ public class SecondLargestArrayElement {
 			{
 				if(ar[i]>largest) 
 				{
-					largest=second_largest;
+					second_largest=largest;
 					largest=ar[i];
 				}
 				else if(ar[i]>second_largest && ar[i]!=largest) 
