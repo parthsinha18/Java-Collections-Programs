@@ -33,7 +33,7 @@ public class SecondLargestArrayElement {
 			{
 				if(ar[i]>largest) 
 				{
-					second_largest=largest;
+					largest=second_largest;
 					largest=ar[i];
 				}
 				else if(ar[i]>second_largest && ar[i]!=largest) 

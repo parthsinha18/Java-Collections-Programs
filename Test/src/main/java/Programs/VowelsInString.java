@@ -26,6 +26,19 @@ public class VowelsInString {
 		
 		System.out.println(count);
 
+		//display only consonent 
+		String s1 = "parthaaaaoe";
+		char ch[] = s1.toCharArray();
+		String res= "";
+		for(int i =0; i<ch.length; i++) 
+		{
+			if(ch[i] != 'a' && ch[i] !='e' && ch[i] != 'o' && ch[i]!='i' && ch[i] !='u')
+			res = res + ch[i];
+			
+			
+		}
+		
+		System.out.println(res);
 	}
 
 }
