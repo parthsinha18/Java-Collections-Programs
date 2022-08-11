@@ -20,6 +20,7 @@ public class HashMap_Demo {
 		map.put("UK", "London");
 		map.put(null, "France");
 		map.put("Usa", "Washington dc");
+		map.clear();
 		
 		System.out.println(map.get("India"));//if we pass the key it will print value attached to that particular key 
 		System.out.println(map.get(null));

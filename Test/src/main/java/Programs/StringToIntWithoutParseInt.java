@@ -18,7 +18,7 @@ public class StringToIntWithoutParseInt {
 	public static void main(String[] args) {
 		
 
-		String s ="35252";
+		String s ="1324";
 		System.out.println(string(s)+10);
 				
 	}
