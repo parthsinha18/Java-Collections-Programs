@@ -15,6 +15,7 @@ public class StringToIntWithoutParseInt {
 		return num;
 	}
 	
+	
 	public static void main(String[] args) {
 		
 
@@ -22,5 +23,6 @@ public class StringToIntWithoutParseInt {
 		System.out.println(string(s)+10);
 				
 	}
+	
 
 }

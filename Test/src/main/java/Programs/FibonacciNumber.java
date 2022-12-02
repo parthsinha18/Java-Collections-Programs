@@ -33,7 +33,7 @@ public class FibonacciNumber
 		
 
 
-		/*
+		
 		
 		int a=0;
 		int b=1;
@@ -48,7 +48,7 @@ public class FibonacciNumber
 			b=c;
 			
 		}
-		*/
+		
 		
 	}
 }

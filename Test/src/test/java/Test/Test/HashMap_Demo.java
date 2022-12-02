@@ -17,13 +17,13 @@ public class HashMap_Demo {
 		
 		HashMap<String,String>  map = new HashMap<String,String>();
 		map.put("India", "Delhi");
-		map.put("UK", "London");
+		map.put("abc", "Delhi");
 		map.put(null, "France");
 		map.put("Usa", "Washington dc");
-		map.clear();
+		
 		
 		System.out.println(map.get("India"));//if we pass the key it will print value attached to that particular key 
-		System.out.println(map.get(null));
+		
 		
 		System.out.println("_____________");
 		//Iterating hashmap 

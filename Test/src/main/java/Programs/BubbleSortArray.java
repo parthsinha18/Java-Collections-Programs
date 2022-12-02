@@ -49,6 +49,45 @@ public class BubbleSortArray {
 		System.out.println("Array after sorting" + Arrays.toString(ch));
 		
 	
+		int arr[] = {4,5,8,3,5};
+		int len = arr.length;
+		for(int i=0; i<len-1; i++) 
+		{
+			for(int j=0; j<len-1; j++) 
+			{
+				if(arr[j]>arr[j+1]) 
+				{
+					int temp=arr[j];
+					arr[j]=arr[j+1];
+					arr[j+1]=temp;
+				}
+			}
+		}
+		System.out.println(Arrays.toString(arr));
+		
+		
+		String s1 = "testing";
+		char ch1[]=s1.toCharArray();
+		int len1 = ch1.length;
+		System.out.println(ch1.length);
+		
+		for(int i=0; i<len1-1; i++) 
+		{
+			for(int j=0 ; j<len1-1 ; j++) 
+			{
+				if(ch1[j]>ch1[j+1]) 
+				{
+					char temp = ch1[j];
+					ch1[j]=ch1[j+1];
+					ch1[j+1]=temp;
+				}
+			}
+		}
+		System.out.println(Arrays.toString(ch1));
+	
 	}
+	
+	
+	
 
 }

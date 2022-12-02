@@ -13,6 +13,8 @@ public class AverageOfArray {
 		System.out.println(total);
 		double average=  (total/ar.length);
 		System.out.println(average);
+		
+	
 	}
 
 }

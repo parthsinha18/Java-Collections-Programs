@@ -5,13 +5,7 @@ import java.util.Map;
 
 public class Rev_String {
 
-	public static boolean vowel(char c) 
-	{
-		 return c == 'a' || c=='e' || c=='o';
-			
 	
-		
-	}
 	public static void main(String[] args) {
 		
 		String s1= "hello";
@@ -41,8 +35,23 @@ public class Rev_String {
 		sb.reverse();
 		System.out.println("String buffer reverse = " + sb);
 		
-	
+		String str= "hello reverse";
+		System.out.println(str);
+		String rev2 ="";
+		str.split(" ");
+		for(int i=str.length()-1; i>=0; i--) 
+		{
+			rev2=rev2 +str.charAt(i);
+		}
+		
+		System.out.println(rev2);
+		
 	
 		}
+	
+	
+
+	
+	
 	}
 	

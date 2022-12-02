@@ -41,5 +41,26 @@ public class Largest_Smallest_Array {
 		
 		
 		
+		int num[]= {4,8,23,50,100};
+		int small = num[0];
+		int large= num[0];
+		
+		for(int i=1; i<num.length; i++) 
+		{
+			if(num[i]>large) 
+			{
+				large=num[i];
+			}
+			else if(num[i]<small) 
+			{
+				small=num[i];
+			}
+		}
+		
+		System.out.println(large);
+		System.out.println(small);
+		System.out.println("Numbers" + Arrays.toString(num));
+		
+		
 	}
 }

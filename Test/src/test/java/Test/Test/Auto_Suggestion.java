@@ -18,7 +18,7 @@ public class Auto_Suggestion {
 			
 			
 			try {
-			System.setProperty("webdriver.chrome.driver" , "C:\\Users\\parthsarthi.nishant\\eclipse-workspace\\Test\\Drivers\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver" , "C:\\Users\\parthsarthi.nishant\\eclipse-workspace\\E2EProject\\E2EProject\\Drivers\\chromedriver.exe");
 			WebDriver driver=new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.get("https://www.google.com/");

@@ -9,10 +9,10 @@ public class LinearSearchArray {
 
 		for(int i = 0 ; i<ar.length; i++) 
 		{
-			System.out.println(ar[i]);
+			
 			if(ar[i]==search_ar) 
 			{
-				System.out.print("Element found at index no" + i);
+				System.out.println("Element found at index no" + i);
 				flag=true;
 				break;
 				
@@ -26,6 +26,7 @@ public class LinearSearchArray {
 		}
 		
 		
+	
 		
 	}
 

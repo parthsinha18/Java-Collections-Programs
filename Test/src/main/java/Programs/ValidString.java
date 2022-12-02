@@ -35,8 +35,8 @@ public class ValidString {
 	public static void main(String[] args) {
 		
 
-		//System.out.println(validNum("123a"));
-		System.out.println(validPhno("1234567891"));
+		System.out.println(validNum("12345678912"));
+		System.out.println(validPhno("1234567891a"));
 		//System.out.println(validPhno(""));
 	}
 

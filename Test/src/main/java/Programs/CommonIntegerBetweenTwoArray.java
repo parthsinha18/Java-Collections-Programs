@@ -16,6 +16,18 @@ public class CommonIntegerBetweenTwoArray {
 				}
 			}
 		}
+		int ar2[]= {5,8,2,36,4};
+		int ar3[]= {10,8,5,25,5};
+		for(int i=0; i<ar2.length; i++) 
+		{
+			for (int j=0; j<ar3.length; j++) 
+			{
+				if(ar2[i]==ar3[j]) 
+				{
+					System.out.println(ar[i]);
+				}
+			}
+		}
 
 	}
 
